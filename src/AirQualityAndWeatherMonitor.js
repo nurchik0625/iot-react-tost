@@ -11,7 +11,7 @@ const AirQualityAndWeatherMonitor = () => {
 
   const fetchWeatherData = async () => {
     try {
-      const response = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=e9cc91c43499eab0de3837377f52231d&lang=RU&units=metric`);
+      const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=e9cc91c43499eab0de3837377f52231d&lang=RU&units=metric`);
       setWeatherData(response.data);
       setError('');
     } catch (error) {
