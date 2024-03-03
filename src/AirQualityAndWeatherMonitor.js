@@ -23,8 +23,8 @@ const AirQualityAndWeatherMonitor = () => {
 
   useEffect(() => {
     fetchWeatherData();
-  }, []);
-
+  }, [fetchWeatherData]);
+  
   const handleSearch = () => {
     fetchWeatherData();
   };
