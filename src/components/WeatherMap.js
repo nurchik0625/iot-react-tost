@@ -26,7 +26,7 @@ const WeatherMap = () => {
       });
 
     // Add base map layer
-    darkMap.addTo(map);
+    dgis.addTo(map);
 
     // Add additional weather layers
     const windLayer = L.tileLayer('https://tile.openweathermap.org/map/wind_new/{z}/{x}/{y}.png?appid=e9cc91c43499eab0de3837377f52231d', {
