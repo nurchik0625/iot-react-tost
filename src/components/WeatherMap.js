@@ -90,7 +90,7 @@ const WeatherMap = () => {
   }, []); // Add an empty dependency array to ensure the effect runs only once
 
   return (
-    <div id="map" style={{ height: '600px', width: '1200px' }}></div>
+<div id="map" style={{ height: '100vh', width: '100vw', position: 'fixed', top: 0, left: 0, zIndex: 1 }}></div>
   );
 };
 

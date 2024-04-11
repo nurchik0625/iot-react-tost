@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <AirQualityAndWeatherMonitor /> {/* Вставляем компонент */}
-        <h4>Карта</h4>
+      {/* <AirQualityAndWeatherMonitor /> 
+        <h4>Карта</h4> */}
         <WeatherMap />
       </header>
     </div>
