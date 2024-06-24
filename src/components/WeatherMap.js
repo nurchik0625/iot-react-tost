@@ -71,14 +71,10 @@ const WeatherMap = () => {
       };
     const overlayMaps = {
       'Давление': pressureLayer,
-      'Атмосферные осадки': precipitationLayer,
+      'Загрязнение воздуха PM2.5': precipitationLayer,
       'Облака': cloudsLayer,
       'Температура': temperatureLayer,
-      'Ветер': windLayer,
-      'Молнии': ligthingLayer,
-      'Загрязнение воздуха PM2.5': air25Layer,
-      'Загрязнение воздуха PM10': air10Layer,
-      'Прогноз влажности': airLayer
+      'Загрязнение воздуха PM10': windLayer
     };
 
     L.control.layers(baseMaps, overlayMaps).addTo(map);
